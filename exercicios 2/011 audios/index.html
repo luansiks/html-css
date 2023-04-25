@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <hr>
+    <p>tente abrir esse site em dispositivos diferentes</p>
+    <picture> <!--use a tag <picture para começar o sistema-->
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png"> <!--use <source media"(max-width: px)" srcset="" type="image/"-->
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png"><!--use esses para caso a tela do usuario for menor do que o devido use isto-->
+        <img src="imagens/imagem-g.png" alt="imagem grande">
+    </picture>
+    <h1>reproduzindo aldio</h1>
+    <p>vamos reproduzir aldio :)</p>
+    <audio src="midia/natal.mp3"controls></audio> <!--use <audio> para reproduzir um adio com o parametro src="" e use controls para ter controle do audio-->
+    <!--fuciona bem com: mp3 wav ogg-->
+    <audio controls loop ><!--use loop para ficar em lupem-->
+        <source src="midia/natal.mp3" type="audio/mpeg"> <!--use source se ele não comseguir tentar carregar vai carrecar o proximo-->
+        <source src="midia/natal.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

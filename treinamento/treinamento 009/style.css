@@ -1,0 +1,5 @@
+@charset "UTF-8";
+body{font-family: Arial, Helvetica, sans-serif;font-size: 25px;font-weight:  normal;font-style: normal;background-color: rgb(132, 181, 228);}
+h1#titulo-principal{text-align: center;color: rgb(10, 47, 89);font-size: 70px;}
+.sub{color: rgb(35, 69, 180);background-color: rgb(117, 162, 202);}
+p:hover{color: rgb(84, 84, 216);text-decoration: underline;}

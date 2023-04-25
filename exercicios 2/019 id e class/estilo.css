@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*
+em html e id    em css e # (so pode um elemento)
+*/ 
+/*
+em html e class em css e . (pode mais de um elemento)
+*/
+body{
+    background-color: #89bafb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+}
+h1{color: #375275;}
+h2{color: #557FB5;}
+h1#primeiro{color: #192536;font-size: 40px;}
+.basico{color: #3f6d32;}
+.medio{color: #a9ad24;}
+.dificil{color: #891212;}
+.destaque{background-color: #4d7cbd;}
