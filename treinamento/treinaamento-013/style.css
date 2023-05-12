@@ -1,16 +1,14 @@
 @charset "UTF-8";
 
-*{
-    margin: 0px;
-}
+*{margin: 0px;padding: 0px;}
 
-
-:root{ --font1: Verdana, Geneva, Tahoma, sans-serif;
-       --font2: 'Passion One', cursive;
-       --font3: 'Sriracha', cursive;
-}
-header{background-color: black; height: 280px;}
-h1{font-family: var(--font1);font-size: 100px;text-align: center;color: white;padding-top: 70px;}
-p#milton{color: white;text-align: center;padding-top: 20px;font-family: var(--font1);}
-a#link{color: white;text-decoration: none;font-weight: bolder;}
-a#link:hover{text-decoration: underline;}
+html, body{background-color: rgb(120, 120, 120);min-width: 100%;}
+header{background-color: black;color: white;text-align: center;}
+header > h1{padding-top: 50px;font-variant: small-caps;}
+header > p{padding-bottom: 50px;}
+a{color: white;text-decoration: none;font-weight: bolder;}
+a:hover{text-decoration: underline;}
+.normal{background-color: white;}
+.imagem{background-color: rgb(63, 63, 63);color: white;}
+.imagem > p{background-color: rgba(0, 0, 0, 0.216);width: 400px;}
+section{padding: 10% 0%;line-height: 40px;padding-left: 30px;}
