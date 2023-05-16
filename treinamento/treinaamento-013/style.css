@@ -22,5 +22,6 @@ a:hover{text-decoration: underline;}
 .imagem > p{background-color: rgba(0, 0, 0, 0.216);padding: 5px;display: inline-block;margin-bottom: 50px;}
 section{padding-top: 10vh;padding-bottom: 10hv; line-height: 2em;padding-left: 30px;font-family: var(--font3);font-size: 3.5vw;}
 section > p{padding-bottom: 2em;}
-section#img01{background-image:url(ladybug-g9d679bdbf_640.jpg);background: black url(ladybug-g9d679bdbf_640.jpg) right center;background-size: cover;}
-section#img02{background-image: url(paper-gc5b02f3b5_640.jpg);background: black url(paper-gc5b02f3b5_640.jpg) right center;background-size: cover;}
+section#img01{background-image:url(ladybug-g9d679bdbf_640.jpg);background: black url(ladybug-g9d679bdbf_640.jpg) right center fixed;background-size: cover;}
+section#img02{background-image: url(paper-gc5b02f3b5_640.jpg);background: black url(paper-gc5b02f3b5_640.jpg) right center fixed;background-size: cover;}
+footer{background-color: black;text-align: center;color: white;}
