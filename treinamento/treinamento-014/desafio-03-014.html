@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        th, td{border: 1px black solid;}
+        thead{background-color: rgb(113, 113, 113);color: white;}
+        table{border-collapse: collapse;width: 400px;height: 500px;text-align: center;}
+        .grupo{background-color: rgb(113, 113, 113);color: white;}
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr><th rowspan="2">area</th><th rowspan="2" scope="col">diciplinas</th><th colspan="2" scope="colgroup">notas</th><th rowspan="2" scope="col">media</th></tr>
+            <tr><th scope="col">nota1</th><th scope="col">nota2</th></tr>
+        </thead>
+        <tbody>
+            <tr><th rowspan="4" scope="rowgroup">exatas</th><td>matematica</td><td>0.0</td><td>0.0</td><td>0.0</td></tr>
+            <tr><td>fisica</td><td>0.0</td><td>0.0</td><td>0.0</td></tr>
+            <tr><td>quimica</td><td>0.0</td><td>0.0</td><td>0.0</td></tr>
+            <tr><td>biologia</td><td>0.0</td><td>0.0</td><td>0.0</td></tr>
+            <tr><th class="grupo" scope="row" colspan="4">media de exatas</th><th class="grupo">0.0</th></tr>
+            <tr><th rowspan="2" scope="rowgroup">humanas</th><td>historia</td><td>0.0</td><td>0.0</td><td>0.0</td></tr>
+            <tr><td>geografia</td><td>0.0</td><td>0.0</td><td>0.0</td></tr>
+            <tr><th class="grupo" colspan="4" scope="row">medidas de humanas</th> <th class="grupo">0.0</th></tr>
+        </tbody>
+    </table>
+</body>
+</html>
