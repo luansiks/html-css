@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio de tabela</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        th, td{border: 1px black solid;}
+        table{border-collapse: collapse;width: 500px; text-align: center;height: 300px;}
+        caption{font-size: 30px;font-weight: bolder;}
+        .n{background-color: antiquewhite;}
+        .g{background-color: brown;}
+    </style>
+</head>
+<body>
+    <h1>exercicio de tabela</h1>
+    <table>
+        
+        <colgroup>
+        <col class="n">
+        <col class="g" span="2">
+        <col class="p">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr><th scope="col">nome</th><th scope="col">genero</th><th scope="col">idade</th><th scope="col">profissao</th></tr>
+        <tr><td>ana maria</td><td>feminino</td><td>25</td><td>jornalista</td></tr>
+        <tr><td>luan santos</td><td>masculino</td><td>11</td><td>programador</td></tr>
+        <tr><td>gustavo</td><td>masculino</td><td>42</td><td>professor</td></tr>
+        <tr><td>helio</td><td>masculino</td><td>19</td><td>vendedor</td></tr>
+        <tr><td>maria</td><td>feminino</td><td>39</td><td>medica</td></tr>
+        <tr><td>otavio</td><td>masculino</td><td>22</td><td>nutricionista</td></tr>
+    </table>
+</body>
+</html>
