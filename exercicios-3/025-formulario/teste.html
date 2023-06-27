@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+    </style>
+</head>
+<body>
+    <h1>benvindo</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <fieldset>
+            <legend>cadastro</legend>
+            <p><label for="inome">nome: </label><input type="text" name="nome" id="inome" placeholder="nome de usuario"></p>
+            <p><label for="iemail">e-mail: </label><input type="email" name="email" id="iemail" placeholder="e-mail de usuario"></p>
+            <p><label for="isenha">senha: </label><input type="password" name="senha" id="isenha" placeholder="senha de usuario"></p>
+            <p><label for="iidade">idade: </label><input type="number" name="idade" id="iidade" placeholder="senha do usuario"></p>
+            <input type="radio" name="genero" id="m" checked><label for="m"> masculino</label>
+            <input type="radio" name="genero" id="f"><label for="f"> feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>informação adicional</legend>
+            <input type="radio" name="outro" id="estu"><label for=""> estuda</label>
+            <input type="radio" name="outro" id="trab"><label for=""> trabalha</label>
+            <input type="radio" name="outro" id="outr"><label for=""> outro</label>
+        </fieldset>
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </p>
+   </form>
+</body>
+</html>
