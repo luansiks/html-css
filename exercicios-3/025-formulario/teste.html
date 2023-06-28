@@ -13,18 +13,20 @@
     <form action="cadastro.php" autocomplete="on" method="post">
         <fieldset>
             <legend>cadastro</legend>
-            <p><label for="inome">nome: </label><input type="text" name="nome" id="inome" placeholder="nome de usuario"></p>
-            <p><label for="iemail">e-mail: </label><input type="email" name="email" id="iemail" placeholder="e-mail de usuario"></p>
-            <p><label for="isenha">senha: </label><input type="password" name="senha" id="isenha" placeholder="senha de usuario"></p>
-            <p><label for="iidade">idade: </label><input type="number" name="idade" id="iidade" placeholder="senha do usuario"></p>
+            <p><label for="inome">nome: </label><input type="text" name="nome" id="inome" placeholder="nome de usuario" required minlength="5" maxlength="30" autocomplete="name"></p>
+            <p><label for="iemail">e-mail: </label><input type="email" name="email" id="iemail" placeholder="e-mail de usuario" required minlength="10" maxlength="30" autocomplete="email"></p>
+            <p><label for="isenha">senha: </label><input type="password" name="senha" id="isenha" placeholder="senha de usuario" required minlength="10" maxlength="20" autocomplete="new-password"></p>
+            <p><label for="itelef">telefone: </label><input type="tel" name="telef" id="itelef" placeholder="numero de usuario" autocomplete="tel"></p>
+            <p><label for="iidade">idade: </label><input type="number" name="idade" id="iidade" placeholder="idade de usuario"></p>
             <input type="radio" name="genero" id="m" checked><label for="m"> masculino</label>
             <input type="radio" name="genero" id="f"><label for="f"> feminino</label>
         </fieldset>
         <fieldset>
             <legend>informação adicional</legend>
-            <input type="radio" name="outro" id="estu"><label for=""> estuda</label>
-            <input type="radio" name="outro" id="trab"><label for=""> trabalha</label>
-            <input type="radio" name="outro" id="outr"><label for=""> outro</label>
+            <input type="radio" name="outro" id="estu"><label for="estu"> estuda</label>
+            <input type="radio" name="outro" id="trab"><label for="trab"> trabalha</label>
+            <input type="radio" name="outro" id="outr"><label for="outr"> outro</label><br>
+            <label for="igosta">o quanto voce gostou desse site:</label><input type="range" name="gosta" id="igosta" min="0" max="10" value="0">
         </fieldset>
     <p>
         <input type="submit" value="enviar">
