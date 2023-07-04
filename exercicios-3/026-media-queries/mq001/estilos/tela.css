@@ -10,4 +10,4 @@ header{background-color: lightgrey;}
 header > h1{text-align: center;}
 menu li{display: inline-block;padding: 10px;color: white;}
 menu ul{list-style-type: none;background-color: gray;}
-article{width: 600px;display: blockw;}
+article{width: 600px;display: block;}
