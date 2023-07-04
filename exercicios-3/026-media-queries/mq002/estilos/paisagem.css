@@ -1,3 +1,5 @@
 @charset "UTF-8";
 
 /*aparelho em paisagem*/
+
+body{background-image: url(../imagens/cev-landscape.jpg);background-position: left bottom}
