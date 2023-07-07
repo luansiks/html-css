@@ -2,4 +2,30 @@
 
 /*todas as demais midias*/
 
-@media print{}
+/*typical device breakpoints
+pequenas telas: até 600px
+celular: de 600px até 768px
+tablet: de 768px até 992px
+desktop: de 992px até 1200px
+grandes telas: acima de 1200px
+*/
+@media print{ /*impressora*/
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px){ /*tablet*/
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#celular{display: none;}
+    img#tablet{display: block;}
+    img#impressora{display: none;}
+    img#desktop{display: none;}
+    img#tv{display: none;}
+}
+@media screen and (min-width:992px) and (max-width:1200px){ /*desktop*/
+
+}
+@media screen and (min-width:1200px){ /*telas grandes*/
+
+}
