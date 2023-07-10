@@ -14,7 +14,7 @@ grandes telas: acima de 1200px
     main, h1{text-shadow: none;color: black;}
 main{border: 2px solid black;}
 
-img#celular{display: none;}
+img#cellar{display: none;}
 img#tablet{display: nome;}
 img#impressora{display: block;}
 img#desktop{display: none;}
