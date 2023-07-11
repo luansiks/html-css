@@ -11,7 +11,7 @@ header{
 header > h1{text-align: center;padding: 10px;}
 
 menu{
-    display: block;
+    display: none;
 }
 menu > ul{
     list-style-type: none;}
@@ -44,4 +44,16 @@ article > p{
     text-align: justify;
     margin-bottom: 10px;
     text-indent: 20px;
+}
+
+i#burguer{
+    background-color: rgb(44, 44, 44);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+i#burguer:hover{
+    background-color: white;
+    color:black
 }
