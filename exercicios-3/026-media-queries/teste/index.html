@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilo-principal.css">
+    <link rel="stylesheet" href="estilos/media.css">
+</head>
+<body onresize="mudar()">
+    <header>
+        <h1>bem-vindo</h1>
+        <i id="icone-menu" class="material-icons" onclick="clickmenu()">menu</i>
+        <menu id="menu1">
+            <a href="#">opeção 1</a>
+            <a href="#">opeção 2</a>
+            <a href="#">opeção 3</a>
+            <a href="#">opeção 4</a>
+            <a href="#">opeção 5</a>
+        </menu>
+    </header>
+    <main>
+        <h2>vem lorem poraí</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tempora 
+            accusantium ad, pariatur suscipit sed, aut nisi eos voluptate et 
+            sapiente dolore beatae mollitia ullam rerum accusamus facilis nulla officia.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam 
+            vel id quaerat, obcaecati quos, iusto voluptate sed ut dolorum repellat ratione 
+            blanditiis minus quasi sint eveniet, illo vero possimus!</p>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam 
+            vel id quaerat, obcaecati quos, iusto voluptate sed ut dolorum repellat ratione 
+            blanditiis minus quasi sint eveniet, illo vero possimus!</p>
+            
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam 
+            vel id quaerat, obcaecati quos, iusto voluptate sed ut dolorum repellat ratione 
+            blanditiis minus quasi sint eveniet, illo vero possimus!</p>
+    </main>
+    <script>
+        function clickmenu(){
+            if(menu1.style.display == 'block'){
+                menu1.style.display = 'none'
+            }else{
+                menu1.style.display = 'block'
+            }
+        }
+        function mudar(){
+            if(window.innerWidth >= 768){
+                menu1.style.display = 'block'
+            }else{
+                menu1.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
