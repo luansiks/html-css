@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color1: #49a09d;
+    --color2: #5f2c82;
+}
+
+body{
+    background-color: var(--color2);
+}
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+}
+
+section > div#fundo{
+    height: 27vh;
+    background: black url(../imagens/imagem-fundo.jpg) no-repeat fixed;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+section > div#login > h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.6em;
+}
+
+section > div#login > p{
+    font-size: 0.9em;
+    padding: 5px;
+}
