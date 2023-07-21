@@ -21,15 +21,15 @@
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="espaco">
                         <i class="material-icons" id="person">person</i>
-                        <input type="email" name="login" id="ilogin">
+                        <input type="email" name="login" id="ilogin" required minlength="5" maxlength="20" autocomplete="email" placeholder="email">
                         <label for="ilogin">login</label>
                     </div>
                     <div class="espaco">
                         <i class="material-icons" id="key">vpn_key</i>
-                        <input type="password" name="senha" id="isenha">
+                        <input type="password" name="senha" id="isenha" required minlength="10" maxlength="25" autocomplete="current-password" placeholder="senha">
                         <label for="isenha">senha</label>
                     </div>
-                    <div class="espaco">
+                    <div>
                         <input type="submit" value="entrar" id="sub">
                     </div>
                     <div>

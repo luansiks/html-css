@@ -44,7 +44,32 @@ section > div#login > h1{
     font-size: 1.6em;
 }
 
+i{
+    width: 20px;
+    padding: 5px;
+    color: white;
+}
+
 section > div#login > p{
     font-size: 0.9em;
     padding: 5px;
+}
+
+div.espaco{
+    background-color: #5f2c82;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+div.espaco > input{
+    background-color: rgb(197, 246, 246);
+    width: calc(100% - 35px);
+    height: 40px;
+    font-size: 1.0em;
+    transform: translateY(-2px);
+    border-radius: 10px;
+    border: none;
+}
+label{
+    display: none;
 }
