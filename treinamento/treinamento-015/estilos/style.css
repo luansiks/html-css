@@ -30,10 +30,16 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
+}
+
+div#login{
+    height: 60%;
 }
 
 section > div#fundo{
-    height: 27vh;
+    height: 40%;
     background: black url(../imagens/imagem-fundo.jpg) no-repeat fixed;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
@@ -67,9 +73,9 @@ div.espaco > input{
     width: calc(100% - 35px);
     height: 40px;
     font-size: 1.0em;
-    transform: translateY(-2px);
     border-radius: 10px;
     border: none;
+    transform: translateY(-2px);
 }
 label{
     display: none;
@@ -79,34 +85,37 @@ div > input[type=submit]{
     background-color: var(--color1);
     color: white;
     border: none;
-    width: 95%;
-    margin: 5px;
+    width: 98%;
+    margin: 10px;
     padding: 10px;
     font-size: 1.0em;
     border-radius: 10px;
+    margin: auto;
+    text-align: center;
 }
 div > input[type=submit]:hover{
     background-color: #306c6a;
     cursor: pointer;
 }
 
-div > a{
-    text-decoration: none;
-    width: 100%;
-    margin: 5px 5px;
+a{
+    display: block;
     padding: 10px;
-    color: var(--color1);
+    margin: 2px;
     background-color: white;
-    border: 1px var(--color1) solid;
-    text-align: center;
+    color: var(--color1);
     border-radius: 10px;
+    border: 1px var(--color1) solid;
+    text-decoration: none;
+    width: 88%;
 }
 
 div > a:hover{
     background-color: #91dedc;
 }
 
-div > a > i{
-    color: var(--color1);
-    width: 20%;
+
+div#pass{
+    margin-left: 5px;
+    width: 97%;
 }

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color1: #49a09d;
+    --color2: #5f2c82;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    section{
+        width: 90vw;
+        height: 290px;
+    }
+
+    section > div#login{
+        width: 60%;
+        float: right;
+    }
+
+    section > div#fundo{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+
+    }
+    main{
+        background: linear-gradient(to bottom ,var(--color2) ,var(--color1));
+    }
+    a{
+        width: 92%;
+        margin-left: 10px;
+    }
+    div#pass{
+        width: 98%;
+        margin-left: 10px;
+    }
+    
+}
