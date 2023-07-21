@@ -22,12 +22,13 @@ main{
 
 section{
     position: absolute;
-    top: 50%;
-    left: 50%;
     width: 250px;
-    height: 500px;
+    height: 525px;
     border-radius: 20px;
     background-color: white;
+    box-shadow: 1px 1px 5px black;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -56,8 +57,8 @@ section > div#login > p{
 }
 
 div.espaco{
-    background-color: #5f2c82;
-    margin: 10px;
+    background-color: var(--color2);
+    margin: 5px 10px;
     border-radius: 10px;
 }
 
@@ -72,4 +73,40 @@ div.espaco > input{
 }
 label{
     display: none;
+}
+
+div > input[type=submit]{
+    background-color: var(--color1);
+    color: white;
+    border: none;
+    width: 95%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.0em;
+    border-radius: 10px;
+}
+div > input[type=submit]:hover{
+    background-color: #306c6a;
+    cursor: pointer;
+}
+
+div > a{
+    text-decoration: none;
+    width: 100%;
+    margin: 5px 5px;
+    padding: 10px;
+    color: var(--color1);
+    background-color: white;
+    border: 1px var(--color1) solid;
+    text-align: center;
+    border-radius: 10px;
+}
+
+div > a:hover{
+    background-color: #91dedc;
+}
+
+div > a > i{
+    color: var(--color1);
+    width: 20%;
 }
