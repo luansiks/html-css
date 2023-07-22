@@ -77,6 +77,11 @@ div.espaco > input{
     border: none;
     transform: translateY(-2px);
 }
+
+div.espaco > input:focus-visible{
+    background-color: white;
+}
+
 label{
     display: none;
 }
@@ -100,22 +105,26 @@ div > input[type=submit]:hover{
 
 a{
     display: block;
-    padding: 10px;
-    margin: 2px;
+    margin: 2px 0px 2px 5px;
     background-color: white;
     color: var(--color1);
     border-radius: 10px;
     border: 1px var(--color1) solid;
     text-decoration: none;
-    width: 88%;
+    width: 95%;
+    text-align: center;
 }
 
-div > a:hover{
-    background-color: #91dedc;
+a:hover{
+    background-color: rgb(163, 239, 239);
 }
-
 
 div#pass{
     margin-left: 5px;
     width: 97%;
+}
+
+a > i{
+    display: inline;
+    color: var(--color1);
 }
